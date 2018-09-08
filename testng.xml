@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Suite Files">
+	<suite-files>
+		<!-- <suite-file path="target/test-classes/suitefiles/testngExecutionOrder.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/nativeDependencyInjection.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngMethodInvocationListener.xml"/>
+		<suite-file path="target/test-classes/suitefiles/parameters.xml"></suite-file> 
+		<suite-file path="target/test-classes/suitefiles/dataProvider.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/dependencies.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/factories.xml"></suite-file>-->
+		<suite-file path="target/test-classes/suitefiles/parallelism.xml"></suite-file>
+	</suite-files>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suiteTagInSuiteFile">
+	<test name="testTagInSuiteFile">
+		<!-- PARAMETERS -->
+		<parameter name="firstParam" value="HELLO"></parameter>
+		<parameter name="secondParam" value="WORLD"></parameter>
+		<!-- CLASSES -->
+		<classes>
+			<class name="com.ibm.testng.ParametersTest" />
+		</classes>
+	</test>
+</suite>

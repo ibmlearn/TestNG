@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+	<test name="test">
+		<!-- GROUPS EXCLUDE INCLUDE-->
+		<!-- <groups>
+			<run>
+				<include name="first" />
+				<exclude name="second" />
+			</run>
+		</groups> -->
+		<!-- GROUPS OF GROUPS -->
+		<!-- <groups>
+			<define name="firstGroup">
+				<include name="first" />
+			</define>
+			<define name="secondGroup">
+				<include name="second" />
+			</define>
+			<define name="all">
+				<include name="firstGroup" />
+				<include name="secondGroup" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups> -->
+		<!-- CLASSES -->
+		<classes>
+			<class name="com.ibm.testng.AnnotationWithoutDataProviderExecutionOrder" />
+		</classes>
+	</test>
+</suite>

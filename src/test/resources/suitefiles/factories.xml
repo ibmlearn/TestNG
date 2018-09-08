@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testSuite">
+	<test name="testWithoutGroupByInstances">
+		<!-- CLASSES -->
+		<classes>
+			<class name="com.ibm.testng.FactoriesTest" />
+		</classes>
+	</test>
+	<test name="testWithGroupByInstances" group-by-instances="true">
+		<!-- CLASSES -->
+		<classes>
+			<class name="com.ibm.testng.FactoriesTest" />
+		</classes>
+	</test>
+</suite>

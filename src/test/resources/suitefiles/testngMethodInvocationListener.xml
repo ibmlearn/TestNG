@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+	<listeners>
+		<listener class-name="com.ibm.testng.IInvokedMethodListenerImp"></listener>
+	</listeners>
+	<test name="test">
+		<!-- CLASSES -->
+		<classes>
+			<class name="com.ibm.testng.IInvokedMethodListenerTest" />
+		</classes>
+	</test>
+</suite>
