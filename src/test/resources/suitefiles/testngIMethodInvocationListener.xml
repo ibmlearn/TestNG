@@ -1,12 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="suite">
+<suite name="IMethodInvocationListener_Suite">
 	<listeners>
 		<listener class-name="com.ibm.testng.IInvokedMethodListenerImp"></listener>
 	</listeners>
-	<test name="test">
-		<!-- CLASSES -->
+	<test name="IMethodInvocationListener_Context">
 		<classes>
-			<class name="com.ibm.testng.IInvokedMethodListenerTest" />
+			<class name="com.ibm.testng.ListenerIInvokedMethodListenerTest" />
 		</classes>
 	</test>
 </suite>

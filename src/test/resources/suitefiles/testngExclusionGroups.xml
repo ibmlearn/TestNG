@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ExclusionGroups_Suite">
+	<test name="ExclusionGroups_Context">
+		<groups>
+			<run>
+				<include name="first" />
+				<exclude name="second" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ibm.testng.GroupsTest" />
+		</classes>
+	</test>
+</suite>

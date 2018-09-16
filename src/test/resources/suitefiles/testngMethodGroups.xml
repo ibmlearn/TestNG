@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MethodGroups_Suite">
+	<test name="MethodGroups_Context">
+		<classes>
+			<class name="com.ibm.testng.GroupsTest">
+				<methods>
+					<include name=".*testForGroup.*" />
+					<exclude name=".*Second.*" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

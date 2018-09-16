@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IAlterSuiteListener_Suite">
+	<listeners>
+		<listener class-name="com.ibm.testng.IAlterSuiteListenerImpl"></listener>
+	</listeners>
+	<test name="IAlterSuiteListener_Context">
+		<classes>
+			<class name="com.ibm.testng.IAlterSuiteListenerTest">
+			</class>
+		</classes>
+	</test>
+</suite>

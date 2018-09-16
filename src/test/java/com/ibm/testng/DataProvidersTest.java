@@ -8,15 +8,20 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 import org.testng.ITestContext;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class DataProviderTest {
+public class DataProvidersTest {
 
 	@Test(dataProvider="arrayOfArrayOfObjects")
 	public void objectArrayDataProviderTest(String name, Integer firstInt){
+		System.out.println(name);
+		System.out.println(firstInt);
+	}
+	
+	@Test( dataProvider="arrayOfArrayOfObjectsParallel")
+	public void objectArrayDataProviderParallelTest(String name, Integer firstInt){
 		System.out.println(name);
 		System.out.println(firstInt);
 	}
@@ -39,16 +44,24 @@ public class DataProviderTest {
 			};
 	}
 	
+	@DataProvider(name = "arrayOfArrayOfObjectsParallel")
+	public Object[][] createDataParallel(){
+		return new Object[][] {
+			{ "Parallel1", new Integer(36) },
+			{ "Parallel2", new Integer(37)},
+			};
+	}
+	
 	@DataProvider(name = "iteratorOfObjects")
 	public Iterator<Object[]> getData(Method method, ITestContext context){
 		System.out.println(method.getName());
 		System.out.println(context.getName());
 		List<Map<String,String>> completeData = new ArrayList<Map<String,String>>();
-		Map<String,String> data = new HashMap();
+		Map<String,String> data = new HashMap<String,String>();
 		data.put("1","one");
 		data.put("2","two");
 		completeData.add(data);
-		Map<String,String> data2 = new HashMap();
+		Map<String,String> data2 = new HashMap<String,String>();
 		data2.put("3","three");
 		data2.put("4","four");
 		completeData.add(data2);

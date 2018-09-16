@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class AnnotationWithDataProviderExecutionOrder {
+public class AnnotationWithDataProviderExecutionOrderTest {
 	
 	public void beforeSuite(){
 		System.out.println("***BEFORE SUITE***");

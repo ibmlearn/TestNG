@@ -1,7 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="testSuiteParallelMethods" parallel="methods" thread-count="5">
-	<test name="test">
-		<!-- CLASSES -->
+<suite name="Parallelism_Methods_Suite" parallel="methods" thread-count="5">
+	<test name="Parallelism_Methods_Context">
 		<classes>
 			<class name="com.ibm.testng.ParallelismAndTimeoutsFirstTest" />
 			<class name="com.ibm.testng.ParallelismAndTimeoutsSecondTest" />

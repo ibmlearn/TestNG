@@ -1,14 +1,28 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="All Suite Files">
+<suite name="TestNG_Suite">
 	<suite-files>
-		<!-- <suite-file path="target/test-classes/suitefiles/testngExecutionOrder.xml"/>
-		<suite-file path="target/test-classes/suitefiles/testngGroups.xml"/>
-		<suite-file path="target/test-classes/suitefiles/nativeDependencyInjection.xml"/>
-		<suite-file path="target/test-classes/suitefiles/testngMethodInvocationListener.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngExecutionOrder.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngAllowReturnValues.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/testngExclusionGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngGroupsOfGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngMethodGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngPartialGroups.xml"/>
 		<suite-file path="target/test-classes/suitefiles/parameters.xml"></suite-file> 
-		<suite-file path="target/test-classes/suitefiles/dataProvider.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/dataProviders.xml"></suite-file>
 		<suite-file path="target/test-classes/suitefiles/dependencies.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/factories.xml"></suite-file>-->
-		<suite-file path="target/test-classes/suitefiles/parallelism.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/dependenciesGroupByInstances.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/factories.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/factoriesWithDataProviders.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/testngClassLevelAnnotations.xml"></suite-file> 
+		<suite-file path="target/test-classes/suitefiles/parallelism.xml"></suite-file> 
+		<suite-file path="target/test-classes/suitefiles/testngAnnotationTransformerTestAnnotation.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngAnnotationTransformer2DataProviderAnnotation.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngAnnotationTransformer2FactoryAnnotation.xml"/>
+		<suite-file path="target/test-classes/suitefiles/nativeDependencyInjection.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngIMethodInterceptor.xml"/> 
+		<suite-file path="target/test-classes/suitefiles/testngIMethodInvocationListener.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngIHookable.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/testngIAlterSuiteListener.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/testngSuiteWithoutTests.xml"></suite-file>
 	</suite-files>
 </suite>

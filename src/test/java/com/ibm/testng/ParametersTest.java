@@ -1,6 +1,7 @@
 package com.ibm.testng;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Factory;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -38,6 +39,15 @@ public class ParametersTest {
 		System.out.println("PARAMETERS FOR @TEST method parametersFromConstructor");
 		System.out.println(this.firstParam);
 		System.out.println(this.secondParam);
+	}
+	
+	@Factory
+	public Object[] createInstances() {
+		Object[] result = new Object[5];
+		for (int i = 0; i < 5; i++) {
+			result[i] = new FactoriesWeb(i * 10);
+		}
+		return result;
 	}
 	
 }

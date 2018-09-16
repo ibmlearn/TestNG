@@ -1,8 +1,4 @@
 package com.ibm.testng;
-import java.lang.reflect.Method;
-
-import org.testng.ITestContext;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterMethod;
@@ -14,10 +10,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import org.testng.xml.XmlTest;
 
 
-public class AnnotationWithoutDataProviderExecutionOrder {
+public class GroupsTest {
 
 	@BeforeSuite
 	public void beforeSuite(){
@@ -34,9 +29,14 @@ public class AnnotationWithoutDataProviderExecutionOrder {
 		System.out.println("***BEFORE CLASS***");
 	}
 	
-	@BeforeGroups({"group"})
-	public void beforeGroup(){
-		System.out.println("***BEFORE GROUP***");
+	@BeforeGroups({"first"})
+	public void beforeGroupFirst(){
+		System.out.println("***BEFORE GROUP FIRST***");
+	}
+	
+	@BeforeGroups({"second"})
+	public void beforeGroupSecond(){
+		System.out.println("***BEFORE GROUP SECOND***");
 	}
 	
 	@BeforeMethod
@@ -44,9 +44,14 @@ public class AnnotationWithoutDataProviderExecutionOrder {
 		System.out.println("***BEFORE METHOD***");
 	}
 	
-	@Test(groups={"group"})
-	public void testForGroup(){
-		System.out.println("***TEST FOR GROUP***");
+	@Test(groups={"first"})
+	public void testForGroupFirst(){
+		System.out.println("***TEST FOR GROUP FIRST***");
+	}
+	
+	@Test(groups={"second"})
+	public void testForGroupSecond(){
+		System.out.println("***TEST FOR GROUP SECOND***");
 	}
 	
 	@Test
@@ -59,9 +64,14 @@ public class AnnotationWithoutDataProviderExecutionOrder {
 		System.out.println("***AFTER METHOD***");
 	}
 	
-	@AfterGroups({"group"})
-	public void afterGroup(){
-		System.out.println("***AFTER GROUP***");
+	@AfterGroups({"first"})
+	public void afterGroupFirst(){
+		System.out.println("***AFTER GROUP FIRST***");
+	}
+	
+	@AfterGroups({"second"})
+	public void afterGroupSecond(){
+		System.out.println("***AFTER GROUP SECOND***");
 	}
 	
 	@AfterClass

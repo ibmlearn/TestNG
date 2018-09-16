@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DependenciesGroupByInstances_Suite">
+	<test name="DependenciesGroupByInstances_Context" group-by-instances="true">
+		<classes>
+			<class name="com.ibm.testng.DependenciesGroupByInstancesTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PartialGroups_Suite">
+	<test name="PartialGroups_Context">
+		<groups>
+			<run>
+				<include name="first" />
+				<include name="second" />
+				<include name="withoutGroupsAttributeTest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ibm.testng.GroupsPartialTest" />
+		</classes>
+	</test>
+</suite>

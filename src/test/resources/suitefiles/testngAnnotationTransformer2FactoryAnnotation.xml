@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AnnotationTransformer2_FactoryAnnotation_Suite">
+	<listeners>
+		<listener class-name="com.ibm.testng.AnnotationTransformer2FactoryAnnotation"></listener>
+	</listeners>
+	<test name="AnnotationTransformer2_FactoryAnnotation_Context" group-by-instances="true">
+		<classes>
+			<class name="com.ibm.testng.AnnotationTransformer2FactoryAnnotationTest">
+			</class>
+		</classes>
+	</test>
+</suite>

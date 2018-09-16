@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IHookable_Suite">
+	<listeners>
+		<listener class-name="com.ibm.testng.IHookableImpl"></listener>
+	</listeners>
+	<test name="IHookable_Context">
+		<classes>
+			<class name="com.ibm.testng.IHookableTest">
+			</class>
+		</classes>
+	</test>
+</suite>

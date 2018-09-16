@@ -14,12 +14,12 @@ public class DependenciesTest {
 	}
 	
 	@Test(dependsOnMethods={"testMethod"}, alwaysRun=true)
-	public void testMethodWithAlwaysRunAsTrue(Method method){
+	public void testMethodWithAlwaysRunAsTrueSoftDependency(Method method){
 		System.out.println(method.getName());
 	}
 	
 	@Test(dependsOnMethods={"testMethod"})
-	public void testMethodWithAlwaysRunAsDeaultFalse(Method method){
+	public void testMethodWithAlwaysRunAsDeaultFalseHardDependency(Method method){
 		System.out.println(method.getName());
 	}
 	
@@ -30,12 +30,12 @@ public class DependenciesTest {
 	}
 	
 	@Test(dependsOnGroups={"groupOne"}, alwaysRun=true)
-	public void testGroupMethodWithAlwaysRunAsTrue(Method method){
+	public void testGroupMethodWithAlwaysRunAsTrueSoftDependency(Method method){
 		System.out.println(method.getName());
 	}
 	
 	@Test(dependsOnGroups={"groupOne"})
-	public void testGroupMethodWithAlwaysRunAsDefaultFalse(Method method){
+	public void testGroupMethodWithAlwaysRunAsDefaultFalseHardDependency(Method method){
 		System.out.println(method.getName());
 	}
 

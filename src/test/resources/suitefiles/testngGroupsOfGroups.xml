@@ -1,15 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="suite">
-	<test name="test">
-		<!-- GROUPS EXCLUDE INCLUDE-->
-		<!-- <groups>
-			<run>
-				<include name="first" />
-				<exclude name="second" />
-			</run>
-		</groups> -->
-		<!-- GROUPS OF GROUPS -->
-		<!-- <groups>
+<suite name="GroupsOfGroups_Suite">
+	<test name="GroupsOfGroups_Context">
+		<groups>
 			<define name="firstGroup">
 				<include name="first" />
 			</define>
@@ -23,10 +15,9 @@
 			<run>
 				<include name="all" />
 			</run>
-		</groups> -->
-		<!-- CLASSES -->
+		</groups>
 		<classes>
-			<class name="com.ibm.testng.AnnotationWithoutDataProviderExecutionOrder" />
+			<class name="com.ibm.testng.GroupsTest" />
 		</classes>
 	</test>
 </suite>

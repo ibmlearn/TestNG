@@ -1,15 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="testSuiteParallelTests" parallel="tests" thread-count="5">
-	<test name="test1">
-		<!-- CLASSES -->
+<suite name="Parallelism_Tests_Suite" parallel="tests" thread-count="5">
+	<test name="Parallelism_Tests_Context1">
 		<classes>
 			<class name="com.ibm.testng.ParallelismAndTimeoutsFirstTest" />
 			<class name="com.ibm.testng.ParallelismAndTimeoutsSecondTest" />
 		</classes>
 	</test>
 	
-	<test name="test2">
-		<!-- CLASSES -->
+	<test name="Parallelism_Tests_Context2">
 		<classes>
 			<class name="com.ibm.testng.ParallelismAndTimeoutsFirstTest" />
 			<class name="com.ibm.testng.ParallelismAndTimeoutsSecondTest" />

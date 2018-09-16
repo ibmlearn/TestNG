@@ -17,16 +17,16 @@ public class StaticDataProviderClass {
 	public Iterator<Object[]> getDataFromAnotherClass(Method method, ITestContext context){
 		System.out.println(method.getName());
 		System.out.println(context.getName());
-		List<Map<String,String>> completeData = new ArrayList();
-		Map firstMap = new HashMap<String,String>();
+		List<Map<String,String>> completeData = new ArrayList<Map<String,String>>();
+		Map<String,String> firstMap = new HashMap<String,String>();
 		firstMap.put("name", "hello");
 		firstMap.put("id", "1");
-		Map secondMap = new HashMap<String,String>();
+		Map<String,String> secondMap = new HashMap<String,String>();
 		secondMap.put("name", "hi");
 		secondMap.put("id", "2");
 		completeData.add(firstMap);
 		completeData.add(secondMap);
-		Collection collection = new ArrayList();
+		Collection<Object[]> collection = new ArrayList<Object[]>();
 		for(Map<String,String> map: completeData){
 			collection.add(new Object[]{map});
 		}

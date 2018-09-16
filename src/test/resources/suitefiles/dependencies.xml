@@ -1,7 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="testSuite">
-	<test name="testContext">
-		<!-- CLASSES -->
+<suite name="Dependencies_Suite">
+	<test name="Dependencies_Context">
 		<classes>
 			<class name="com.ibm.testng.DependenciesTest" />
 		</classes>

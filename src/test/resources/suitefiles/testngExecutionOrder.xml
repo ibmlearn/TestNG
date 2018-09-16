@@ -1,10 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="suiteTagInSuiteFile">
-	<test name="testTagInSuiteFile">
-		<!-- CLASSES -->
+<suite name="ConfigurationExecutionOrder_Suite">
+	<test name="ConfigurationExecutionOrder_Context">
 		<classes>
-			<!-- <class name="com.ibm.testng.AnnotationWithoutDataProviderExecutionOrder" /> -->
-			<class name="com.ibm.testng.AnnotationWithDataProviderExecutionOrder" />
+			<class name="com.ibm.testng.AnnotationWithoutDataProviderExecutionOrderTest" /> 
+			<class name="com.ibm.testng.AnnotationWithDataProviderExecutionOrderTest" />
 		</classes>
 	</test>
 </suite>

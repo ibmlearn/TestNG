@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllowReturnValues_Suite" allow-return-values="true">
+	<test name="AllowReturnValues_Context">
+		<classes>
+			<class name ="com.ibm.testng.AllowReturnValuesTest"></class>
+			<class name ="com.ibm.testng.AllowReturnValuesTest2"></class>
+		</classes>
+	</test>
+</suite>

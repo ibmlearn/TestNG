@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Factory_GroupByInstances_Suite">
+	<test name="Factory_WithoutGroupByInstances">
+		<classes>
+			<class name="com.ibm.testng.FactoriesWithDataProvidersTest" />
+		</classes>
+	</test>
+	<test name="Factory_WithGroupByInstances" group-by-instances="true">
+		<classes>
+			<class name="com.ibm.testng.FactoriesWithDataProvidersTest" />
+		</classes>
+	</test>
+</suite>

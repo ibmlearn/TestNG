@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IMethodInterceptor_Suite">
+	<listeners>
+		<listener class-name="com.ibm.testng.IMethodInterceptorImpl"></listener>
+	</listeners>
+	<test name="IMethodInterceptor_Context">
+		<classes>
+			<class name="com.ibm.testng.IMethodInterceptorTest">
+			</class>
+		</classes>
+	</test>
+</suite>

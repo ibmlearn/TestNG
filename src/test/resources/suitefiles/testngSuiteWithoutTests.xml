@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WithoutTestClasses_Suite">
+	<test name="WithoutTestClasses_Context">
+		<!-- There is no meaning of this suite config, but will run with out errors -->
+	</test>
+</suite>

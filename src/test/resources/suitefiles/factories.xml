@@ -1,13 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="testSuite">
-	<test name="testWithoutGroupByInstances">
-		<!-- CLASSES -->
+<suite name="Factory_Suite">
+	<test name="testFactoryWithoutGroupByInstances_Context">
 		<classes>
 			<class name="com.ibm.testng.FactoriesTest" />
 		</classes>
 	</test>
-	<test name="testWithGroupByInstances" group-by-instances="true">
-		<!-- CLASSES -->
+	<test name="testFactoryWithGroupByInstances_Context" group-by-instances="true">
 		<classes>
 			<class name="com.ibm.testng.FactoriesTest" />
 		</classes>

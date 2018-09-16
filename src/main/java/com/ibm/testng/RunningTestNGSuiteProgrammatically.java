@@ -8,7 +8,7 @@ import org.testng.xml.XmlClass;
 import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
 
-public class ProgrammaticallyRunningTestNG {
+public class RunningTestNGSuiteProgrammatically {
 	
 	public static void main(String[] args) {
 		

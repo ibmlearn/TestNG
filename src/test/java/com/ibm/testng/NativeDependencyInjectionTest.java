@@ -18,7 +18,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.xml.XmlTest;
 
-public class NativeDependencyInjection {
+public class NativeDependencyInjectionTest {
 
 	@BeforeSuite
 	public void beforeSuite(ITestContext context){

@@ -1,9 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="suiteTagInSuiteFile">
-	<test name="testTagInSuiteFile">
-		<!-- CLASSES -->
+<suite name="NativeDependencyInjection_Suite">
+	<test name="NativeDependencyInjection_Context">
 		<classes>
-			<class name="com.ibm.testng.NativeDependencyInjection" />
+			<class name="com.ibm.testng.NativeDependencyInjectionTest" />
 		</classes>
 	</test>
 </suite>

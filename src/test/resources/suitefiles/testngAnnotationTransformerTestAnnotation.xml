@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AnnotationTransformer">
+	<listeners>
+		<listener class-name="com.ibm.testng.AnnotationTransformerTestAnnotation"></listener>
+	</listeners>
+	<test name="TestAnnotation">
+		<classes>
+			<class name="com.ibm.testng.AnnotationTransformerTestAnnotationTest">
+			</class>
+		</classes>
+	</test>
+</suite>
