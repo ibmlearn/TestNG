@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AssertSuccessFailure_Suite">
+	<test name="AssertSuccessFailure_Context">
+		<classes>
+			<class name ="com.ibm.testng.TestNGAssertTest"></class>
+		</classes>
+	</test>
+</suite>

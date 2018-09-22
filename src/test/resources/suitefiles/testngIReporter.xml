@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IReporter_Suite">
+	<listeners>
+		<listener class-name="com.ibm.testng.IReporterImpl"></listener>
+	</listeners>
+	<test name="IReporter_Context">
+		<classes>
+			<class name ="com.ibm.testng.ReporterIReporterTest"></class>
+		</classes>
+	</test>
+</suite>

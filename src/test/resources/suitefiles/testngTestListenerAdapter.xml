@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestListenerAdapter_Suite">
+	<!-- <listeners>
+		<listener class-name="com.ibm.testng.TestListenerAdapterImpl"></listener>
+	</listeners> -->
+	<test name="TestListenerAdapter_Context">
+		<classes>
+			<class name ="com.ibm.testng.ListenerTestListenerAdapterTest"></class>
+		</classes>
+	</test>
+</suite>

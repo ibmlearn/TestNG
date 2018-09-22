@@ -22,7 +22,10 @@
 		<suite-file path="target/test-classes/suitefiles/testngIMethodInterceptor.xml"/> 
 		<suite-file path="target/test-classes/suitefiles/testngIMethodInvocationListener.xml"/>
 		<suite-file path="target/test-classes/suitefiles/testngIHookable.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/testngIAlterSuiteListener.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/testngIAlterSuiteListener.xml"></suite-file> 
+		<suite-file path="target/test-classes/suitefiles/testngAssert.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/testngTestListenerAdapter.xml"></suite-file>
+		<suite-file path="target/test-classes/suitefiles/testngIReporter.xml"></suite-file>
 		<suite-file path="target/test-classes/suitefiles/testngSuiteWithoutTests.xml"></suite-file>
 	</suite-files>
 </suite>
