@@ -14,22 +14,18 @@ public class AnnotationTransformer2DataProviderAnnotation implements IAnnotation
 	private String dataProviderName = "dataProvider";
 
 	public void transform(ITestAnnotation testAnnotation, Class testClass, Constructor testConstructor, Method testMethod) {
-		// TODO Auto-generated method stub
 		testAnnotation.setDataProvider(dataProviderName);
 	}
 
 	public void transform(IDataProviderAnnotation testDataProviderAnnotation, Method testMethod) {
-		// TODO Auto-generated method stub
 		testDataProviderAnnotation.setName(dataProviderName);
 		
 	}
 
 	public void transform(IFactoryAnnotation testFactoryAnnotation, Method testMethod) {
-		// TODO Auto-generated method stub
 	}
 
 	public void transform(IConfigurationAnnotation testConfigurationAnnotation, Class testClass, Constructor testConstructor, Method testMethod) {
-		// TODO Auto-generated method stub
 	}
 	
 }

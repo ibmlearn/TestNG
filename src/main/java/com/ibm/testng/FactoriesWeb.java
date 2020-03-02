@@ -6,26 +6,20 @@ import org.testng.annotations.Test;
 
 public class FactoriesWeb {
 
-	private int m_numberOfTimes;
+	private int numberOfTimes;
 
 	public FactoriesWeb(int numberOfTimes) {
-		m_numberOfTimes = numberOfTimes;
+		this.numberOfTimes = numberOfTimes;
 	}
 
 	@Test
 	public void testMethod(Method method) {
-		/*for (int i = 0; i < m_numberOfTimes; i++) {
-			System.out.println(method.getName()+" For "+m_numberOfTimes);
-		}*/
-		System.out.println(method.getName()+" For "+m_numberOfTimes);
+		System.out.println(method.getName()+" For "+numberOfTimes);
 	}
 	
 	@Test
 	public void testMethod2(Method method) {
-		/*for (int i = 0; i < m_numberOfTimes; i++) {
-			System.out.println(method.getName()+" For "+m_numberOfTimes);
-		}*/
-		System.out.println(method.getName()+" For "+m_numberOfTimes);
+		System.out.println(method.getName()+" For "+numberOfTimes);
 	}
 
 }

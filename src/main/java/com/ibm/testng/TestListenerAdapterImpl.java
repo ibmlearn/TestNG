@@ -5,7 +5,7 @@ import org.testng.TestListenerAdapter;
 
 public class TestListenerAdapterImpl extends TestListenerAdapter {
 	
-	private int m_count = 0;
+	private int count = 0;
 	
 	@Override
 	public void onTestFailure(ITestResult tr) {
@@ -24,7 +24,7 @@ public class TestListenerAdapterImpl extends TestListenerAdapter {
 
 	private void log(String string) {
 		System.out.print(string);
-		if (++m_count % 5 == 0) {
+		if (++count % 5 == 0) {
 			System.out.println("");
 		}
 	}

@@ -8,7 +8,6 @@ public class RunningTestNGFactoryProgrammatically {
 	 * @param args
 	 */
 	public static void main(String[] args) throws ClassNotFoundException{
-		// TODO Auto-generated method stub
 		TestNG testNG = new TestNG();
 		@SuppressWarnings("rawtypes")
 		Class[] arrayOfClasses = new Class[1];
