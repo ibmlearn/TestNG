@@ -40,9 +40,34 @@
 				<configuration>
 					<suiteXmlFiles>
 						<file>testng.xml</file>
-						<!-- <file>target/test-classes/suitefiles/testngExecutionOrder.xml</file>  -->
-						<!-- <file>target/test-classes/suitefiles/testngGroups.xml</file> -->
-						<!-- <file>target/test-classes/suitefiles/testngMethodInvocationListener.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/2annotationsExecutionOrder.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/51allowReturnValues.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/52methodGroups.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/52groupsOfGroups.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/54exclusionGroups.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/55partialGroups.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/56parameters.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/562dataProviders.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/57dependencies.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/57dependenciesGroupByInstances.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/58factories.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/58factoriesWithDataProviders.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/59classLevelAnnotations.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/510ignoreTests.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/511parallelism.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/512rerunningFailedTests.xml</file>  -->
+						<!-- <file>target/test-classes/suitefiles/516annotationTransformerTestAnnotation.xml</file> --> 
+						<!-- <file>target/test-classes/suitefiles/516annotationTransformer2FactoryAnnotation.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/516annotationTransformer2DataProviderAnnotation.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/517methodInterceptors.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/5191nativeDependencyInjection.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/520listeningToMethodInvocations.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/521overridingTestMethods.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/522alteringSuitesOrTests.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/61successFailureAssert.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/621loggingListeners.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/622loggingReporters.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/testngSuiteWithoutTests.xml</file> -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

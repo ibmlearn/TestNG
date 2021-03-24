@@ -13,7 +13,7 @@ public class RunningTestNGSuiteProgrammatically {
 	public static void main(String[] args) {
 		
 		List<XmlClass> classes = new ArrayList<XmlClass>();
-		classes.add(new XmlClass("com.ibm.testng.AnnotationWithDataProviderExecutionOrder"));
+		classes.add(new XmlClass("com.ibm.testng.AnnotationWithDataProviderExecutionOrderTest"));
 		
 		XmlTest test = new XmlTest();
 		test.setName("test");

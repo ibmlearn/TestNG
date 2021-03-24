@@ -9,7 +9,7 @@ public class AnnotationTransformerTestAnnotationTest {
 
 	@Test(description="description")
 	public void test(ITestContext testContext, Method testMethod){
-		System.out.println(testMethod.getName()+testMethod.getAnnotation(Test.class).invocationCount());
+		System.out.println(testMethod.getName()+" "+testMethod.getAnnotation(Test.class).invocationCount());
 	}
 
 }

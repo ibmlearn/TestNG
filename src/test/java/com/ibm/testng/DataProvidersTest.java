@@ -15,19 +15,17 @@ import org.testng.annotations.Test;
 public class DataProvidersTest {
 
 	@Test(dataProvider="arrayOfArrayOfObjects")
-	public void objectArrayDataProviderTest(String name, Integer firstInt){
-		System.out.println(name);
-		System.out.println(firstInt);
+	public void arrayOfArrayOfObjectsDataProviderTest(String name, Integer firstInt){
+		System.out.println(name+" "+firstInt);
 	}
 	
 	@Test( dataProvider="arrayOfArrayOfObjectsParallel")
-	public void objectArrayDataProviderParallelTest(String name, Integer firstInt){
-		System.out.println(name);
-		System.out.println(firstInt);
+	public void arrayOfArrayOfObjectsParallelDataProviderTest(String name, Integer firstInt){
+		System.out.println(name+" "+firstInt);
 	}
 	
-	@Test( dataProvider="iteratorOfObjects")
-	public void iteratorDataProviderTest(Map<String,String> data){
+	@Test( dataProvider="iteratorOfObjectsDataProvider")
+	public void iteratorOfObjectsDataProviderTest(Map<String,String> data){
 		System.out.println(data);
 	}
 	
@@ -37,23 +35,27 @@ public class DataProvidersTest {
 	}
 	
 	@DataProvider(name = "arrayOfArrayOfObjects")
-	public Object[][] createData(){
+	public Object[][] createData(Method method, ITestContext context){
+		System.out.println(method.getName());
+		System.out.println(context.getName());
 		return new Object[][] {
 			{ "Cedric", new Integer(36) },
 			{ "Anne", new Integer(37)},
 			};
 	}
 	
-	@DataProvider(name = "arrayOfArrayOfObjectsParallel")
-	public Object[][] createDataParallel(){
+	@DataProvider(name = "arrayOfArrayOfObjectsParallel", parallel=true)
+	public Object[][] createDataParallel(Method method, ITestContext context){
+		System.out.println(method.getName());
+		System.out.println(context.getName());
 		return new Object[][] {
 			{ "Parallel1", new Integer(36) },
 			{ "Parallel2", new Integer(37)},
 			};
 	}
 	
-	@DataProvider(name = "iteratorOfObjects")
-	public Iterator<Object[]> getData(Method method, ITestContext context){
+	@DataProvider(name = "iteratorOfObjectsDataProvider")
+	public Iterator<Object[]> getIteratorObject(Method method, ITestContext context){
 		System.out.println(method.getName());
 		System.out.println(context.getName());
 		List<Map<String,String>> completeData = new ArrayList<Map<String,String>>();
@@ -70,7 +72,6 @@ public class DataProvidersTest {
 			collection.add(new Object[]{map});
 		}
 		return collection.iterator();
-		
 	}
 	
 }

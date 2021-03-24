@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Parallelism_Suite">
-	<suite-files>
-		<suite-file path="target/test-classes/suitefiles/parallelismMethods.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/parallelismTests.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/parallelismClasses.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/parallelismInstances.xml"></suite-file>
-	</suite-files>
-</suite>

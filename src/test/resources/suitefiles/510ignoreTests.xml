@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ignore_Tests_Suite">
+	<test name="Ignore_Tests_Context">
+		<classes>
+			<class name="com.ibm.testng.IgnoringTestsTest" />
+		</classes>
+	</test>
+</suite>

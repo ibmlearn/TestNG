@@ -13,8 +13,8 @@ import org.testng.annotations.DataProvider;
 
 public class StaticDataProviderClass {
 	
-	@DataProvider(name="dataProviderFromAnotherClass", parallel=true)
-	public Iterator<Object[]> getDataFromAnotherClass(Method method, ITestContext context){
+	@DataProvider(name="dataProviderFromAnotherClass")
+	public static Iterator<Object[]> getDataFromAnotherClass(Method method, ITestContext context){
 		System.out.println(method.getName());
 		System.out.println(context.getName());
 		List<Map<String,String>> completeData = new ArrayList<Map<String,String>>();
