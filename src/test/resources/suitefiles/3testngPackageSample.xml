@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestngPackageSample_Suite">
+	<test name="TestngPackageSample_Context">
+		<packages>
+			<package name="com.ibm.testng.packagesample"/>
+			<!-- If package is not present in the source, then no execution and no error -->
+			<!-- <package name="com.ibm.testng.packagesample2"/> -->
+		</packages>
+	</test>
+</suite>

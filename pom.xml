@@ -41,6 +41,8 @@
 					<suiteXmlFiles>
 						<file>testng.xml</file>
 						<!-- <file>target/test-classes/suitefiles/2annotationsExecutionOrder.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/3testngPackageSample.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/3testngPreserveOrder.xml</file> -->
 						<!-- <file>target/test-classes/suitefiles/51allowReturnValues.xml</file>  -->
 						<!-- <file>target/test-classes/suitefiles/52methodGroups.xml</file>  -->
 						<!-- <file>target/test-classes/suitefiles/52groupsOfGroups.xml</file> -->

@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestngPreserveOrder_Suite">
+	<test name="TestngPreserveOrder_Context">
+		<classes>
+			<class name="com.ibm.testng.TestngPreserveOrder" >
+				<!-- <methods>
+					<include name="secondTest" />
+					<exclude name="firstTest" />
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TestngPreserveOrder_Context2" preserve-order="false">
+		<classes>
+			<class name="com.ibm.testng.TestngPreserveOrder" >
+				<!-- <methods>
+					<include name="secondTest" />
+					<exclude name="firstTest" />
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>
