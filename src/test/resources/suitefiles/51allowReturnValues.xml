@@ -1,9 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="AllowReturnValues_Suite" allow-return-values="true">
-	<test name="AllowReturnValues_Context">
+	<!-- allow-return-values=true is only working on <suite> tag and is not working on <test> tag -->
+	<test name="AllowReturnValues_True_Context">
 		<classes>
 			<class name ="com.ibm.testng.AllowReturnValuesTest"></class>
 			<class name ="com.ibm.testng.AllowReturnValuesTest2"></class>
 		</classes>
 	</test>
+	
 </suite>

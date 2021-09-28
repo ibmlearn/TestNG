@@ -1,23 +1,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestNG_Suite">
 	<suite-files>
-		<!-- <suite-file path="target/test-classes/suitefiles/2annotationsExecutionOrder.xml"/>
-		<suite-file path="target/test-classes/suitefiles/3testngPackageSample.xml" />
-		<suite-file path="target/test-classes/suitefiles/3testngPreserveOrder.xml" />
-		<suite-file path="target/test-classes/suitefiles/51allowReturnValues.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/54exclusionGroups.xml"/>
-		<suite-file path="target/test-classes/suitefiles/52groupsOfGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/2annotationsExecutionOrder.xml"/>
+		<suite-file path="target/test-classes/suitefiles/3testngPackageSample.xml"/>
+		<suite-file path="target/test-classes/suitefiles/3testngPreserveOrder.xml"/>
+		<suite-file path="target/test-classes/suitefiles/51allowReturnValues.xml"/>
 		<suite-file path="target/test-classes/suitefiles/52methodGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/52groupsOfGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/54exclusionGroups.xml"/>
 		<suite-file path="target/test-classes/suitefiles/55partialGroups.xml"/>
-		<suite-file path="target/test-classes/suitefiles/56parameters.xml"></suite-file> 
-		<suite-file path="target/test-classes/suitefiles/562dataProviders.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/57dependencies.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/57dependenciesGroupByInstances.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/58factories.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/58factoriesWithDataProviders.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/59classLevelAnnotations.xml"></suite-file> 
+		<suite-file path="target/test-classes/suitefiles/56parameters.xml"/>
+		<suite-file path="target/test-classes/suitefiles/562dataProviders.xml"/>
+		<suite-file path="target/test-classes/suitefiles/57dependencies.xml"/>
+		<suite-file path="target/test-classes/suitefiles/57dependenciesGroupByInstances.xml"/>
+		<suite-file path="target/test-classes/suitefiles/58factories.xml"/>
+		<suite-file path="target/test-classes/suitefiles/58factoriesWithDataProviders.xml"/>
+		<suite-file path="target/test-classes/suitefiles/59classLevelAnnotations.xml"/>
 		<suite-file path="target/test-classes/suitefiles/510ignoreTests.xml"/>
-		<suite-file path="target/test-classes/suitefiles/511parallelism.xml"></suite-file> 
+		<suite-file path="target/test-classes/suitefiles/511parallelism.xml"/>
 		<suite-file path="target/test-classes/suitefiles/512rerunningFailedTests.xml"/>
 		<suite-file path="target/test-classes/suitefiles/516annotationTransformerTestAnnotation.xml"/>
 		<suite-file path="target/test-classes/suitefiles/516annotationTransformer2DataProviderAnnotation.xml"/>
@@ -25,11 +25,11 @@
 		<suite-file path="target/test-classes/suitefiles/517methodInterceptors.xml"/> 
 		<suite-file path="target/test-classes/suitefiles/5191nativeDependencyInjection.xml"/>
 		<suite-file path="target/test-classes/suitefiles/520listeningToMethodInvocations.xml"/>
-		<suite-file path="target/test-classes/suitefiles/521overridingTestMethods.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/522alteringSuitesOrTests.xml"></suite-file> 
-		<suite-file path="target/test-classes/suitefiles/61successFailureAssert.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/621loggingListeners.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/622loggingReporters.xml"></suite-file>
-		<suite-file path="target/test-classes/suitefiles/testngSuiteWithoutTests.xml"></suite-file> -->
+		<suite-file path="target/test-classes/suitefiles/521overridingTestMethods.xml"/>
+		<suite-file path="target/test-classes/suitefiles/522alteringSuitesOrTests.xml"/>
+		<suite-file path="target/test-classes/suitefiles/61successFailureAssert.xml"/>
+		<suite-file path="target/test-classes/suitefiles/621loggingListeners.xml"/>
+		<suite-file path="target/test-classes/suitefiles/622loggingReporters.xml"/>
+		<suite-file path="target/test-classes/suitefiles/testngSuiteWithoutTests.xml"/>
 	</suite-files>
 </suite>
