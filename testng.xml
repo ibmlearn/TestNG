@@ -6,7 +6,7 @@
 		<suite-file path="target/test-classes/suitefiles/3testngPreserveOrder.xml"/>
 		<suite-file path="target/test-classes/suitefiles/51allowReturnValues.xml"/>
 		<suite-file path="target/test-classes/suitefiles/52methodGroups.xml"/>
-		<suite-file path="target/test-classes/suitefiles/52groupsOfGroups.xml"/>
+		<suite-file path="target/test-classes/suitefiles/53groupsOfGroups.xml"/>
 		<suite-file path="target/test-classes/suitefiles/54exclusionGroups.xml"/>
 		<suite-file path="target/test-classes/suitefiles/55partialGroups.xml"/>
 		<suite-file path="target/test-classes/suitefiles/56parameters.xml"/>
