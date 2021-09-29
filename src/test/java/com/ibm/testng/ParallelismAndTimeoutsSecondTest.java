@@ -14,12 +14,12 @@ public class ParallelismAndTimeoutsSecondTest {
 	}
 	
 	@Test
-	public void firstTest(Method method, ITestContext context){
+	public void secondTestOne(Method method, ITestContext context){
 		System.out.println(method.getName()+" OF "+context.getCurrentXmlTest().getName());
 	}
 	
 	@Test
-	public void secondTest(Method method, ITestContext context){
+	public void secondTestTwo(Method method, ITestContext context){
 		System.out.println(method.getName()+" OF "+context.getCurrentXmlTest().getName());
 	}
 
