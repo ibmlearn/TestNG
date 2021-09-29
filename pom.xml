@@ -58,10 +58,11 @@
 						<!-- <file>target/test-classes/suitefiles/510ignoreTests.xml</file>  -->
 						<!-- <file>target/test-classes/suitefiles/511parallelism.xml</file>  -->
 						<!-- <file>target/test-classes/suitefiles/512rerunningFailedTests.xml</file>  -->
-						<!-- <file>target/test-classes/suitefiles/516annotationTransformerTestAnnotation.xml</file> --> 
+						<!-- <file>target/test-classes/suitefiles/516annotationTransformerTestAnnotation.xml</file> -->
 						<!-- <file>target/test-classes/suitefiles/516annotationTransformer2FactoryAnnotation.xml</file> -->
 						<!-- <file>target/test-classes/suitefiles/516annotationTransformer2DataProviderAnnotation.xml</file> -->
 						<!-- <file>target/test-classes/suitefiles/517methodInterceptors.xml</file> -->
+						<!-- <file>target/test-classes/suitefiles/518IHookable.xml</file> -->
 						<!-- <file>target/test-classes/suitefiles/5191nativeDependencyInjection.xml</file> -->
 						<!-- <file>target/test-classes/suitefiles/520listeningToMethodInvocations.xml</file> -->
 						<!-- <file>target/test-classes/suitefiles/521overridingTestMethods.xml</file> -->

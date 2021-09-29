@@ -23,6 +23,7 @@
 		<suite-file path="target/test-classes/suitefiles/516annotationTransformer2DataProviderAnnotation.xml"/>
 		<suite-file path="target/test-classes/suitefiles/516annotationTransformer2FactoryAnnotation.xml"/>
 		<suite-file path="target/test-classes/suitefiles/517methodInterceptors.xml"/> 
+		<suite-file path="target/test-classes/suitefiles/518IHookable.xml"/>
 		<suite-file path="target/test-classes/suitefiles/5191nativeDependencyInjection.xml"/>
 		<suite-file path="target/test-classes/suitefiles/520listeningToMethodInvocations.xml"/>
 		<suite-file path="target/test-classes/suitefiles/521overridingTestMethods.xml"/>
