@@ -1,7 +1,5 @@
 package com.ibm.testng;
 
-import java.lang.reflect.Method;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
