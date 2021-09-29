@@ -11,17 +11,17 @@ import org.testng.annotations.ITestAnnotation;
 
 public class AnnotationTransformer2FactoryAnnotation implements IAnnotationTransformer2 {
 	
-	private String dataProviderName = "dataProvider";
-
+	private String dataProviderName = "dp";
+	
 	public void transform(ITestAnnotation testAnnotation, Class testClass, Constructor testConstructor, Method testMethod) {
 	}
 
 	public void transform(IDataProviderAnnotation testDataProviderAnnotation, Method testMethod) {
-		testDataProviderAnnotation.setName(dataProviderName);
-		
 	}
 
 	public void transform(IFactoryAnnotation testFactoryAnnotation, Method testMethod) {
+		System.out.println(testMethod.getName());
+		//testFactoryAnnotation.setDataProvider("AnyRandomName");
 		testFactoryAnnotation.setDataProvider(dataProviderName);
 	}
 

@@ -14,12 +14,12 @@ public class AnnotationTransformer2DataProviderAnnotation implements IAnnotation
 	private String dataProviderName = "dataProvider";
 
 	public void transform(ITestAnnotation testAnnotation, Class testClass, Constructor testConstructor, Method testMethod) {
-		testAnnotation.setDataProvider(dataProviderName);
 	}
 
 	public void transform(IDataProviderAnnotation testDataProviderAnnotation, Method testMethod) {
 		testDataProviderAnnotation.setName(dataProviderName);
-		
+		//testDataProviderAnnotation.setName("AnyRandomName");
+		System.out.println(dataProviderName);
 	}
 
 	public void transform(IFactoryAnnotation testFactoryAnnotation, Method testMethod) {

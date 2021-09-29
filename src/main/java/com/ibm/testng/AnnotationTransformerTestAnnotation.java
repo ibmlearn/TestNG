@@ -9,8 +9,10 @@ import org.testng.annotations.ITestAnnotation;
 public class AnnotationTransformerTestAnnotation implements IAnnotationTransformer {
 	
 	public void transform(ITestAnnotation testAnnotation, Class testClass, Constructor testConstructor, Method testMethod) {
-		testAnnotation.setInvocationCount(5);
-		System.out.println(testMethod.getName());
+		if(testMethod.getName().equalsIgnoreCase("testAnnotationTransformer")) {
+			testAnnotation.setInvocationCount(5);
+			System.out.println(testMethod.getName()); 
+		}
 	}
 	
 }
